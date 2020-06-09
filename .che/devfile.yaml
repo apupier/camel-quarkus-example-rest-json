@@ -47,6 +47,8 @@ components:
           path: /fruits
     command: ['tail']
     args: ['-f', '/dev/null']
+  - type: chePlugin
+    id: redhat/vscode-apache-camel/latest
 
 commands:
   -
